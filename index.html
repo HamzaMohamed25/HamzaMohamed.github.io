@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hamza Mohamed — Frontend Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ══════════════════════ NAV ══════════════════════ -->
+<nav>
+  <div class="nav-logo">H·M</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- ══════════════════════ HERO ══════════════════════ -->
+<section id="hero">
+  <div class="hero-bg-circle"></div>
+  <div class="hero-content">
+    <div class="hero-text">
+      <div class="hero-tag">Frontend Developer</div>
+      <h1 class="hero-name">Hamza<br/><span>Mohamed</span></h1>
+      <p class="hero-sub">Building systems, not just interfaces — with React, TypeScript &amp; a mindset shaped by C++ fundamentals.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Let's Talk</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <div class="hero-photo-ring">
+        <div class="hero-photo-inner">
+          <!-- Replace with: <img src="your-photo.jpg" alt="Hamza Mohamed" style="width:100%;height:100%;object-fit:cover;"> -->
+          <img src="./images/me.jpg" alt="Hamza Mohamed" style="width:100%;height:100%;object-fit:cover;">
+          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="38" r="20" fill="#c9a96e" opacity="0.5"/>
+            <ellipse cx="50" cy="82" rx="30" ry="22" fill="#c9a96e" opacity="0.3"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ ABOUT ══════════════════════ -->
+<section id="about">
+  <div class="section-inner">
+    <div class="section-label">01 — Who I Am</div>
+    <h2 class="section-title">About Me</h2>
+    <div class="section-divider"></div>
+    <div class="about-grid">
+      <div class="about-aside reveal">
+        <div class="about-stat-row">
+          <div class="about-stat">
+            <div class="about-stat-num">3+</div>
+            <div class="about-stat-label">Projects Delivered</div>
+          </div>
+          <div class="about-stat">
+            <div class="about-stat-num">2024</div>
+            <div class="about-stat-label">Currently Studying @ Cairo Uni</div>
+          </div>
+          <div class="about-stat">
+            <div class="about-stat-num">DEPI</div>
+            <div class="about-stat-label">Frontend Training Graduate</div>
+          </div>
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <p>I'm not just a frontend developer. I'm someone who likes <strong>taking things apart and putting them back together — better.</strong></p>
+        <p>I come from a C++ and Python background. That might sound unrelated to the web, but honestly? That's where my whole approach was shaped. Clean code, object-oriented thinking, breaking big problems into small, solvable pieces. That mindset stuck.</p>
+        <p>Now, working with <strong>React, TypeScript, and the usual frontend tools</strong>, I try to apply the same logic. I'm not interested in just slapping together interfaces. I want to build <strong>systems</strong>. Scalable component libraries. Reusable logic. Code that reads like it was planned, not patched.</p>
+        <p>I'm still learning — every project teaches me something new. But I come with strong fundamentals, curiosity that won't quit, and a genuine love for making things that actually help people.</p>
+        <p>If you're building something that needs both <strong>brains and beauty</strong> — I'm your guy.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ EDUCATION ══════════════════════ -->
+<section id="education">
+  <div class="section-inner">
+    <div class="section-label">02 — Where I Learned</div>
+    <h2 class="section-title">Educational Background</h2>
+    <div class="section-divider"></div>
+    <div class="edu-card reveal">
+      <div class="edu-year-col">
+        <div class="edu-year">2024 – Present</div>
+        <div class="edu-dot"></div>
+        <div class="edu-line"></div>
+      </div>
+      <div class="edu-body">
+        <div class="edu-inst">Cairo University</div>
+        <div class="edu-degree">B.Sc. Computer Science &amp;<br/>Artificial Intelligence</div>
+        <div class="edu-desc">Faculty of Computers and Artificial Intelligence — studying algorithms, data structures, software engineering, and AI foundations in one of Egypt's most respected technical programs.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ SKILLS ══════════════════════ -->
+<section id="skills">
+  <div class="section-inner">
+    <div class="section-label">03 — What I Know</div>
+    <h2 class="section-title">Personal Skills</h2>
+    <div class="section-divider"></div>
+    <div class="skills-grid" id="skillsGrid">
+      <!-- Skill cards injected by JavaScript -->
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ EXPERIENCE ══════════════════════ -->
+<section id="experience">
+  <div class="section-inner">
+    <div class="section-label">04 — Where I've Worked</div>
+    <h2 class="section-title">Experience</h2>
+    <div class="section-divider"></div>
+    <div class="exp-card reveal">
+      <div class="exp-badge">Training · 2024</div>
+      <div class="exp-title">Frontend Training</div>
+      <div class="exp-org">Digital Egypt Pioneers Initiative (DEPI)</div>
+      <ul class="exp-list">
+        <li>Studied modern React development concepts including component-based architecture and state management.</li>
+        <li>Applied best practices in front-end development, clean code principles, and performance optimisation.</li>
+        <li>Worked extensively with HTML, CSS, JavaScript, TypeScript, and React.js throughout real-world projects.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ SERVICES ══════════════════════ -->
+<section id="services">
+  <div class="section-inner">
+    <div class="section-label">05 — What I Offer</div>
+    <h2 class="section-title">Offered Services</h2>
+    <div class="section-divider"></div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon">🌐</div>
+        <div class="service-title">Website Design &amp; Development</div>
+        <div class="service-desc">I don't just build websites — I build digital experiences that people actually enjoy using. Using React, TypeScript, HTML, CSS, and modern frontend tools.</div>
+        <ul class="service-features">
+          <li>Custom designs that match your brand</li>
+          <li>Smooth performance — no slow load times</li>
+          <li>Mobile-first, works on every screen</li>
+          <li>Clean code that's easy to maintain</li>
+        </ul>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">📊</div>
+        <div class="service-title">PowerPoint Presentations</div>
+        <div class="service-desc">A great presentation isn't just about slides — it's about telling a story. I transform ideas into clean, visual, and professional presentations that actually say something.</div>
+        <ul class="service-features">
+          <li>Clean, modern designs that don't distract</li>
+          <li>Visual storytelling — step by step</li>
+          <li>Data visualization that makes numbers interesting</li>
+          <li>Custom reusable templates</li>
+        </ul>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">⚙️</div>
+        <div class="service-title">Software Engineering &amp; Problem Solving</div>
+        <div class="service-desc">With strong foundations in OOP and problem-solving, I write clean, structured code for desktop applications, algorithms, and logical systems.</div>
+        <ul class="service-features">
+          <li>Desktop tools that solve real problems</li>
+          <li>Algorithm implementations</li>
+          <li>Game logic and simulations</li>
+          <li>Code reviews and debugging</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ PROJECTS ══════════════════════ -->
+<section id="projects">
+  <div class="section-inner">
+    <div class="section-label">06 — What I've Built</div>
+    <h2 class="section-title">Professional Projects</h2>
+    <div class="section-divider"></div>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-top">♟️</div>
+        <div class="project-body">
+          <div class="project-year">2025</div>
+          <div class="project-name">GridWars — Game Suite</div>
+          <div class="project-desc">An advanced board game suite built on a modular, object-oriented C++ framework. Brings together 13 unique Tic-Tac-Toe variants with Human vs Human and Human vs Computer modes, real-time board visualization, and a clean menu-driven interface.</div>
+          <div class="project-tags">
+            <span class="project-tag">C++</span>
+            <span class="project-tag">OOP</span>
+            <span class="project-tag">Game Logic</span>
+            <span class="project-tag">Algorithms</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-top">🎵</div>
+        <div class="project-body">
+          <div class="project-year">2025</div>
+          <div class="project-name">Symphony — JUCE Audio Player</div>
+          <div class="project-desc">A modular audio player built with C++ and the JUCE framework. Features waveform visualization, A–B segment looping, playlist support, speed control, seek bar, metadata display, and a redesigned GUI for a clean and intuitive experience.</div>
+          <div class="project-tags">
+            <span class="project-tag">C++</span>
+            <span class="project-tag">JUCE</span>
+            <span class="project-tag">Audio DSP</span>
+            <span class="project-tag">GUI</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-top">📑</div>
+        <div class="project-body">
+          <div class="project-year">2025</div>
+          <div class="project-name">Technical Presentations</div>
+          <div class="project-desc">A collection of professional and technical PowerPoint presentations crafted for university courses — including a Study Time Optimization deck covering OR &amp; Data Structures concepts, with clean visual storytelling and structured layouts.</div>
+          <div class="project-tags">
+            <span class="project-tag">PowerPoint</span>
+            <span class="project-tag">Design</span>
+            <span class="project-tag">Data Viz</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ CONTACT ══════════════════════ -->
+<section id="contact">
+  <div class="section-inner">
+    <div class="section-label">07 — Let's Connect</div>
+    <h2 class="section-title">Let's Work Together</h2>
+    <div class="section-divider"></div>
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="contact-info-title">Got a project in mind?</div>
+        <div class="contact-info-sub">Whether it's a website, a presentation, or a software challenge — I'd love to hear about it.</div>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-item-icon">📞</div>
+            <div class="contact-item-text"><a href="tel:+21011734516">+2 1011734516</a></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">✉️</div>
+            <div class="contact-item-text"><a href="mailto:hamzamohamed25661@gmail.com">hamzamohamed25661@gmail.com</a></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">💼</div>
+            <div class="contact-item-text"><a href="https://www.linkedin.com/in/hamza-mohamed014621263/" target="_blank" rel="noopener">linkedin.com/in/hamza-mohamed014621263</a></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            <div class="contact-item-text">Ain Shams, Cairo, Egypt</div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="contact-form">
+          <div class="form-group">
+            <label class="form-label">Name</label>
+            <input class="form-input" type="text" placeholder="Your name"/>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <input class="form-input" type="email" placeholder="your@email.com"/>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Message</label>
+            <textarea class="form-textarea" placeholder="Tell me about your project..."></textarea>
+          </div>
+          <button class="form-submit" onclick="handleFormSubmit(event)">Send Message</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ FOOTER ══════════════════════ -->
+<footer>
+  <div class="footer-logo">Hamza Mohamed</div>
+  <div class="footer-copy">© 2025 · Frontend Developer · Cairo, Egypt</div>
+</footer>
+
+<!-- ══════════════════════ JAVASCRIPT ══════════════════════ -->
+<script>
+  /* ── Skills Data ── */
+  const skills = [
+    { name: 'HTML',              pct: 91 },
+    { name: 'CSS',               pct: 95 },
+    { name: 'JavaScript',        pct: 95 },
+    { name: 'React.js',          pct: 88 },
+    { name: 'C++',               pct: 85 },
+    { name: 'Python',            pct: 85 },
+    { name: 'OOP',               pct: 85 },
+    { name: 'Problem Solving',   pct: 85 },
+    { name: 'Performance Opt.',  pct: 95 },
+    { name: 'Responsive Design', pct: 95 },
+  ];
+
+  const CIRC = 220;
+  const grid = document.getElementById('skillsGrid');
+
+  skills.forEach(s => {
+    const offset = CIRC - (CIRC * s.pct / 100);
+    const card = document.createElement('div');
+    card.className = 'skill-card reveal';
+    card.innerHTML = `
+      <div class="skill-ring">
+        <svg viewBox="0 0 80 80" width="80" height="80">
+          <circle class="skill-ring-bg" cx="40" cy="40" r="35"/>
+          <circle class="skill-ring-fill" cx="40" cy="40" r="35"
+            data-offset="${offset}" style="stroke-dashoffset:${CIRC}"/>
+        </svg>
+        <div class="skill-ring-text">${s.pct}%</div>
+      </div>
+      <div class="skill-name">${s.name}</div>
+    `;
+    grid.appendChild(card);
+  });
+
+  /* ── Intersection Observer — scroll reveal + skill ring animations ── */
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        entry.target.querySelectorAll('.skill-ring-fill').forEach(ring => {
+          const target = ring.dataset.offset;
+          setTimeout(() => { ring.style.strokeDashoffset = target; }, 100);
+        });
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  /* ── Contact form feedback ── */
+  function handleFormSubmit(e) {
+    e.preventDefault();
+    const btn = e.target;
+    btn.textContent = 'Message Sent ✓';
+    btn.style.background = '#5a8a60';
+    btn.style.color = '#fff';
+    setTimeout(() => {
+      btn.textContent = 'Send Message';
+      btn.style.background = '';
+      btn.style.color = '';
+    }, 3000);
+  }
+</script>
+
+</body>
+</html>
